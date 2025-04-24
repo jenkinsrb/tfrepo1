@@ -1,5 +1,15 @@
 
+terraform { 
+  cloud { 
+    
+    organization = "rbpulumiOrg" 
 
+
+    workspaces { 
+      name = "tfrepo1" 
+    } 
+  } 
+}
 
 
 
